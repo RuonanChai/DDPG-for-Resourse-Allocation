@@ -1,5 +1,4 @@
 # DDPG-for-Resourse-Allocation
-# DDPG Reinforcement Learning
 
 This project implements the Deep Deterministic Policy Gradient (DDPG) algorithm, a model-free off-policy reinforcement learning algorithm. The agent learns to perform actions in an environment to maximize cumulative rewards. DDPG is designed to work in continuous action spaces, making it an ideal algorithm for environments such as robotics and autonomous vehicles.
 
@@ -70,13 +69,14 @@ Once the training completes, the agent's performance can be evaluated by running
    git clone https://github.com/RuonanChai/DDPG-for-Resourse-Allocation.git
    cd DDPG-for-Resourse-Allocation
    
-2.Create a virtual environment (optional but recommended):
+2. Create a virtual environment (optional but recommended):
 python -m venv venv
 source venv/bin/activate  # On Windows, use venv\\Scripts\\activate
 
-3.Install required packages:
+3. Install required packages:
 pip install -r requirements.txt
 
 ## Usage
 To train the agent, run the following command:
+
 python main.py
